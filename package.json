@@ -1,0 +1,15 @@
+{
+  "name": "jev-stub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Credit-light Cloudflare Workers AI typesafe/jev call stub",
+  "scripts": {
+    "jev": "node src/run.mjs",
+    "jev:dry": "node src/run.mjs --dry-run",
+    "jev:mock": "node src/run.mjs --provider=mock"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
